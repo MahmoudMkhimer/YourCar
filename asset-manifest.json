@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/YourCar/static/css/main.01599ad1.css",
-    "main.js": "/YourCar/static/js/main.92b5b340.js",
+    "main.js": "/YourCar/static/js/main.5fcfe115.js",
     "static/media/Background.png": "/YourCar/static/media/Background.5ec6b6901e54fafa9bfe.png",
     "static/media/2.png": "/YourCar/static/media/2.79c0796ad638c955b259.png",
     "static/media/8.png": "/YourCar/static/media/8.4c73358abf77785c8e53.png",
@@ -15,10 +15,10 @@
     "static/media/3.png": "/YourCar/static/media/3.ddc6d9d1f4cc20b62501.png",
     "index.html": "/YourCar/index.html",
     "main.01599ad1.css.map": "/YourCar/static/css/main.01599ad1.css.map",
-    "main.92b5b340.js.map": "/YourCar/static/js/main.92b5b340.js.map"
+    "main.5fcfe115.js.map": "/YourCar/static/js/main.5fcfe115.js.map"
   },
   "entrypoints": [
     "static/css/main.01599ad1.css",
-    "static/js/main.92b5b340.js"
+    "static/js/main.5fcfe115.js"
   ]
 }
