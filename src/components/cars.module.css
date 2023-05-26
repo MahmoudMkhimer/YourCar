@@ -1,0 +1,77 @@
+.cars {
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: #f1f1f1;
+  row-gap: 4rem;
+  padding-bottom: 8rem;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  justify-content: space-around;
+}
+.titels {
+  margin-top: 6rem;
+}
+.titels h2 {
+  font-weight: 700;
+  font-size: 12rem;
+  /* line-height: 13rem; */
+  color: #dbdbdb;
+}
+.titels h3 {
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 5rem;
+  margin-top: -4rem;
+  color: #741906;
+}
+
+.sliderDot {
+  border: 1px solid #232222f5;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  display: block;
+}
+.sliderDots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3rem;
+  cursor: pointer;
+}
+.custom_btn {
+  height: auto;
+  align-self: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+.active {
+  background-color: #741906;
+}
+
+@media (max-width: 60em) {
+  .titels h2 {
+    font-size: 8rem;
+  }
+  .titels h3 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .custom_btn {
+    font-size: 2rem;
+    width: 4rem;
+  }
+}
+@media (max-width: 25em) {
+  .items {
+    column-gap: 0;
+  }
+}

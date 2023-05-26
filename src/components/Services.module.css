@@ -1,0 +1,105 @@
+.services {
+  min-height: 85vh;
+  margin-top: 4rem;
+  background: #dfdfdf;
+  background-blend-mode: multiply;
+  position: relative;
+  text-align: center;
+  /* padding: 5rem; */
+  padding-bottom: 10rem;
+}
+.overlay {
+  /* margin-top: -5%; */
+  /* transform: scale(0.9); */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  /* z-index: -1; */
+  background-image: url("../imgs/CTA\ BG.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services_body {
+  padding-top: 4rem;
+}
+.titels {
+  margin: 4rem 0;
+}
+.titels h2 {
+  margin-top: 4rem;
+  font-weight: 700;
+  font-size: 12rem;
+  /* line-height: 13rem; */
+  color: #ebebeb;
+}
+
+.titels h3 {
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 5rem;
+  /* color: #741906; */
+  margin-top: -3rem;
+  margin-bottom: 3.4rem;
+}
+.offers {
+  color: #12273d;
+  display: flex;
+  flex-direction: row;
+  column-gap: 5rem;
+  justify-content: center;
+  text-align: center;
+  align-items: start;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.2rem;
+  width: 20%;
+}
+.icon {
+  margin: auto;
+}
+.service_title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.text {
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+}
+@media (max-width: 63.5em) {
+  .services {
+    height: auto;
+  }
+  .item {
+    width: 25%;
+  }
+}
+@media (max-width: 50em) {
+  .offers {
+    flex-direction: column;
+  }
+  .item {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 4rem;
+    row-gap: 1.5rem;
+  }
+  .titels h2 {
+    font-size: 8rem;
+  }
+  .titels h3 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 35em) {
+  .titels h2 {
+    font-size: 6rem;
+  }
+  .titels h3 {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,125 @@
+.footer {
+  background: #ffffff;
+  box-shadow: 0px -3px 2px rgba(0, 0, 0, 0.03);
+  min-height: 50vh;
+  padding: 6rem;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 6rem;
+  line-height: 1.5;
+}
+.first,
+.second,
+.third {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+  font-weight: 300;
+  color: #12273d;
+}
+.first {
+  width: 28%;
+}
+.first p {
+  width: 50%;
+}
+.second {
+  width: 35%;
+  text-align: center;
+}
+.second p {
+  width: 75%;
+  margin: auto;
+}
+.third {
+  width: 28%;
+}
+.third p {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.third ion-icon {
+  font-size: 2rem;
+}
+.title {
+  color: #741906;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.input {
+  padding: 1rem 3rem;
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+.btn {
+  font-size: 1.8rem;
+  width: auto;
+  border-radius: 0;
+  padding: 1rem 2rem;
+}
+
+.icons {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.line {
+  border: 1px solid #741906;
+  margin: auto;
+  width: 90%;
+}
+.copy {
+  text-align: center;
+  margin-top: 1rem;
+}
+.copy span {
+  color: #741906;
+  font-weight: 600;
+}
+@media (max-width: 85em) {
+  .container {
+    column-gap: 3rem;
+  }
+  .first p {
+    width: 75%;
+  }
+  .second p {
+    width: 90%;
+    margin: auto;
+  }
+  .second div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+}
+@media (max-width: 50em) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .first,
+  .second,
+  .third {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4rem;
+  }
+  .container p {
+    width: 100%;
+  }
+  .third {
+    text-align: left;
+    justify-content: center;
+  }
+  .third p {
+    justify-content: center;
+  }
+}

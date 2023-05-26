@@ -1,0 +1,34 @@
+.sponcesrs {
+  background: #e5e5e5;
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+}
+.imgs {
+  display: flex;
+  /* gap: 2rem; */
+  width: 100%;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.imgs img {
+  width: 8rem;
+  height: 8rem;
+}
+@media (max-width: 50em) {
+  .imgs {
+    display: grid;
+    /* row-gap: 4rem; */
+    justify-content: space-evenly;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    /* margin-left: 4rem; */
+  }
+  .imgs img {
+    margin-top: 4rem;
+    justify-self: center;
+    margin-bottom: 4rem;
+  }
+}
