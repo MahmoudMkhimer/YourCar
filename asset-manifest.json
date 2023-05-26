@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/YourCar/static/css/main.01599ad1.css",
+    "main.js": "/YourCar/static/js/main.92b5b340.js",
+    "static/media/Background.png": "/YourCar/static/media/Background.5ec6b6901e54fafa9bfe.png",
+    "static/media/2.png": "/YourCar/static/media/2.79c0796ad638c955b259.png",
+    "static/media/8.png": "/YourCar/static/media/8.4c73358abf77785c8e53.png",
+    "static/media/1.png": "/YourCar/static/media/1.a9a00f5bf82a8b2e5d4c.png",
+    "static/media/4.png": "/YourCar/static/media/4.37c86af21e64979d57b1.png",
+    "static/media/CTA BG.png": "/YourCar/static/media/CTA BG.784cbbf285aad2456274.png",
+    "static/media/6.png": "/YourCar/static/media/6.bdae3591b574cd65c045.png",
+    "static/media/9.png": "/YourCar/static/media/9.845a19dbc17dcb41ba91.png",
+    "static/media/5.png": "/YourCar/static/media/5.b2ff3ec2964678718faf.png",
+    "static/media/7.png": "/YourCar/static/media/7.ebbc5c1a63c3cfcdf603.png",
+    "static/media/3.png": "/YourCar/static/media/3.ddc6d9d1f4cc20b62501.png",
+    "index.html": "/YourCar/index.html",
+    "main.01599ad1.css.map": "/YourCar/static/css/main.01599ad1.css.map",
+    "main.92b5b340.js.map": "/YourCar/static/js/main.92b5b340.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01599ad1.css",
+    "static/js/main.92b5b340.js"
+  ]
+}
